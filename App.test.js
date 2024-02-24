@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
 import '@testing-library/jest-dom';
+import App from './src/App';
 
 test('renders GetToDoItem component', () => {
 render(<App />);
